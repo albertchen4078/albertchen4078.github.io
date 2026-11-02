@@ -211,20 +211,30 @@
                 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
             }
 
+            #About {
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
         </style>
     </head>
     <body>
         <h1 class="centered">Albert's Art Gallery</h1>
 
         <div class="tab">
-            <button class="tablinks" onclick="openTab(event,'Home')" id="defaultOpen">Home</button>
-            <button class="tablinks" onclick="openTab(event,'Drawings')">Drawings</button>
+            <button class="tablinks" onclick="openTab(event,'Drawings')" id="defaultOpen">Drawings</button>
             <button class="tablinks" onclick="openTab(event,'Poems')">Poems</button>
             <button class="tablinks" onclick="openTab(event,'Photos')">Photos</button>
+            <button class="tablinks" onclick="openTab(event,'About')">About</button>
         </div>
 
-        <div id="Home" class="tabcontent">
-            <p>Hello. Please click on the tabs above to begin viewing the gallery</p>
+        <div id="About" class="tabcontent">
+            <p>Hello, my name is Albert Chen, and I made this website with AI (Albert Intelligence). I've only ever shared my artworks with close friends
+            and family, but I also wanted to put them out there on the internet because I think they're worth sharing. All of the pieces displayed were
+            created during my college years, though a few were made back when I was in high school. I really started getting into art back during the
+            Covid lockdown, so I guess I've been practicing for about six years now as of 2026. This website was only supposed to contain my drawings
+            and my poems, but I opened the photo gallery on my phone and thought that I actually had some pretty good photos. It's funny because every
+            one of the photos shown was taken with a 2014 Android, I think.</p>
         </div>
 
         <div id="Drawings" class="tabcontent">
